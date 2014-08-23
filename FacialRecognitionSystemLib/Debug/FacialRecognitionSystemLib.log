@@ -1,0 +1,23 @@
+﻿Build started 22/08/2014 16:59:01.
+     1>Project "C:\Users\Christopher\Documents\Visual Studio 2010\Projects\FacialRecognitionSystem\FacialRecognitionSystemLib\FacialRecognitionSystemLib.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\FacialRecognitionSystemLib.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\FacialRecognitionSystemLib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv\build\x86\vc10\..\..\include\opencv2 /IC:\opencv\build\x86\vc10\..\..\include\opencv /IC:\opencv\build\x86\vc10\..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\FacialRecognitionSystemLib.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv\build\x86\vc10\..\..\include\opencv2 /IC:\opencv\build\x86\vc10\..\..\include\opencv /IC:\opencv\build\x86\vc10\..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\FacialRecognitionSystemLib.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ImageProcessing.cpp
+         ImageProcessing.cpp
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Christopher\Documents\Visual Studio 2010\Projects\FacialRecognitionSystem\Debug\FacialRecognitionSystemLib.lib" /NOLOGO Debug\ImageProcessing.obj
+         Debug\stdafx.obj
+         FacialRecognitionSystemLib.vcxproj -> C:\Users\Christopher\Documents\Visual Studio 2010\Projects\FacialRecognitionSystem\Debug\FacialRecognitionSystemLib.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\FacialRecognitionSystemLib.unsuccessfulbuild".
+         Touching "Debug\FacialRecognitionSystemLib.lastbuildstate".
+     1>Done Building Project "C:\Users\Christopher\Documents\Visual Studio 2010\Projects\FacialRecognitionSystem\FacialRecognitionSystemLib\FacialRecognitionSystemLib.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.52

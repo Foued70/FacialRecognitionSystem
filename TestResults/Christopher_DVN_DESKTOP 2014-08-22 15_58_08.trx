@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e9cb3547-ebbf-404b-9ba0-d8aaee4a3793" name="Christopher@DVN_DESKTOP 2014-08-22 15:58:08" runUser="DVN_DESKTOP\Christopher" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="38a1509a-f657-4f03-bcd9-1c58c710b0cf">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Christopher_DVN_DESKTOP 2014-08-22 15_58_08">
+      <DeploymentItem filename="C:\Users\Christopher\Documents\Visual Studio 2010\Projects\FacialRecognitionSystem\Debug\FacialRecognitionSystemLib.lib" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-08-22T15:58:08.5470588+01:00" queuing="2014-08-22T15:58:10.3559604+01:00" start="2014-08-22T15:58:10.5151736+01:00" finish="2014-08-22T15:58:13.6039462+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="removeColourTest" storage="c:\users\christopher\documents\visual studio 2010\projects\facialrecognitionsystem\debug\facialrecognitionsystemtest.dll" id="8a11e320-7b01-ba53-ed0b-47babbd978c8">
+      <Execution id="5c3950cc-a611-481d-9376-cd69b81d541d" />
+      <TestMethod codeBase="C:/Users/Christopher/Documents/Visual Studio 2010/Projects/FacialRecognitionSystem/Debug/FacialRecognitionSystemTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FacialRecognitionSystemTest.ImageProcessingUnitTest, FacialRecognitionSystemTest, Version=1.0.5347.26943, Culture=neutral, PublicKeyToken=null" name="removeColourTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8a11e320-7b01-ba53-ed0b-47babbd978c8" executionId="5c3950cc-a611-481d-9376-cd69b81d541d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5c3950cc-a611-481d-9376-cd69b81d541d" testId="8a11e320-7b01-ba53-ed0b-47babbd978c8" testName="removeColourTest" computerName="DVN_DESKTOP" duration="00:00:00.0261853" startTime="2014-08-22T15:58:10.6774972+01:00" endTime="2014-08-22T15:58:12.4958936+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5c3950cc-a611-481d-9376-cd69b81d541d">
+    </UnitTestResult>
+  </Results>
+</TestRun>
